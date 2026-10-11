@@ -1,0 +1,41 @@
+{
+  "transitions": [
+    {
+      "effect_id": "fade",
+      "name": "تلاشي (Fade)",
+      "xml_template": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" spd=\"{speed}\"><p:fade/></p:transition>",
+      "verified": true,
+      "tested_versions": ["PowerPoint 2016", "PowerPoint 2019", "PowerPoint 2021", "Microsoft 365"]
+    },
+    {
+      "effect_id": "push",
+      "name": "دفع (Push)",
+      "xml_template": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" spd=\"{speed}\"><p:push dir=\"r\"/></p:transition>",
+      "verified": true,
+      "tested_versions": ["PowerPoint 2019", "PowerPoint 2021", "Microsoft 365"]
+    },
+    {
+      "effect_id": "wipe",
+      "name": "مسح (Wipe)",
+      "xml_template": "<p:transition xmlns:p=\"http://schemas.openxmlformats.org/presentationml/2006/main\" spd=\"{speed}\"><p:wipe dir=\"l\"/></p:transition>",
+      "verified": true,
+      "tested_versions": ["PowerPoint 2019", "PowerPoint 2021", "Microsoft 365"]
+    }
+  ],
+  "animations": [
+    {
+      "effect_id": "appear",
+      "name": "ظهور (Appear)",
+      "type": "entrance",
+      "verified": true,
+      "tested_versions": ["PowerPoint 2016", "PowerPoint 2019", "PowerPoint 2021", "Microsoft 365"]
+    },
+    {
+      "effect_id": "fade",
+      "name": "تلاشي تدريجي (Fade In)",
+      "type": "entrance",
+      "verified": true,
+      "tested_versions": ["PowerPoint 2019", "PowerPoint 2021", "Microsoft 365"]
+    }
+  ]
+}

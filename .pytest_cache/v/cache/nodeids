@@ -1,0 +1,23 @@
+[
+  "services/engine/tests/test_library_indexer.py::test_deduplication_pipeline",
+  "services/engine/tests/test_library_indexer.py::test_full_library_scan_and_query",
+  "services/engine/tests/test_library_indexer.py::test_magic_classifier_file_types",
+  "services/engine/tests/test_library_indexer.py::test_scan_cooperative_cancellation",
+  "services/engine/tests/test_library_indexer.py::test_template_metadata_extraction",
+  "services/engine/tests/test_pptx_export.py::test_full_pptx_export_from_model",
+  "services/engine/tests/test_pptx_export.py::test_round_trip_xml_package_integrity",
+  "services/engine/tests/test_pptx_export.py::test_verified_transitions_and_animations_filtering",
+  "services/engine/tests/test_router_and_logger.py::test_health_with_invalid_token",
+  "services/engine/tests/test_router_and_logger.py::test_health_with_valid_token",
+  "services/engine/tests/test_router_and_logger.py::test_health_without_token",
+  "services/engine/tests/test_router_and_logger.py::test_safe_logger_redaction",
+  "services/engine/tests/test_router_and_logger.py::test_system_info_endpoint",
+  "services/engine/tests/test_storage_and_backup.py::test_backup_and_restore_round_trip",
+  "services/engine/tests/test_storage_and_backup.py::test_project_file_atomic_write_and_bak",
+  "services/engine/tests/test_storage_and_backup.py::test_secrets_exclusion_in_storage_and_backup",
+  "services/engine/tests/test_storage_and_backup.py::test_sqlite_settings_persistence",
+  "services/engine/tests/test_unified_data_model.py::test_json_schema_export",
+  "services/engine/tests/test_unified_data_model.py::test_model_validation_and_creation",
+  "services/engine/tests/test_unified_data_model.py::test_round_trip_json_serialization",
+  "services/engine/tests/test_unified_data_model.py::test_schema_migration_from_legacy"
+]

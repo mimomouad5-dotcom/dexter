@@ -1,0 +1,6 @@
+{
+  "name": "Dexter Presentation Studio",
+  "description": "Professional presentation studio for editable PPTX generation with local AI, verified animations, and design engine.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
